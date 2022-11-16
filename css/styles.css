@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2.9375rem;
+    text-align: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    font-size: 1.375rem;
+    font-family: 'prata', serif;
+    color: #27bcb8;
+    text-decoration: none;
+}
+
+.bg-color{
+    height: 100vh;
+    background: linear-gradient(to left, #75e3dd 50%, #003170 50%);
+}
+
+.hello {
+    width: 70%;
+    margin-left: auto;
+}
+
+.header-text {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+
+.hello h2{
+    font-size: 9.375rem;
+    color: #fff;
+    font-family: 'prata', serif;
+}
+
+.hello p{
+    font-size: 1.125rem;
+    color: #fff;
+    font-family: 'inconsolata' ,monospace;
+    text-align: center;
+
+}
+
+.photo-nicole {
+    color: #fff;
+    font-family: 'inconsolata' ,monospace;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    
+}
+
+.scroll {
+    text-align: center;
+    font-family: 'inconsolata' ,monospace;
+    font-size: 1.125rem;
+    color: #2864b1;
+    padding-top: 1.25rem;
+}
+
+.bg-footer {
+    background-color: #f5979c;
+    background-image: url(../img/socialmedia.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blue-boxes {
+    z-index: 1;
+    font-size: 2rem;
+    color: #16736e;
+    background:#75e3dd;
+    width: 25rem;
+    position: relative;
+    top: 1.875rem;
+}
+
+.branding-mobile {
+    z-index: 1;
+    font-size: 2rem;
+    color: #16736e;
+    background:#75e3dd;
+    width: 29rem;
+    position: relative;
+    top: 1.875rem;
+    left: 30rem;
+
+}
+
+#works h1 {
+    color: #4dc2bd;
+    font-size: 6.25rem;
+    font-family: 'Prata', 'serif';
+    font-weight: normal;
+}
+
+#works h2 {
+    color: #0e726f;
+    font-size: 3.125rem;
+    font-family: 'Prata', 'serif';
+    font-weight: normal;
+}
+
+#works p {
+    color: #0e726f;
+    font-family: 'inconsolata' ,monospace;
+    font-weight: normal;
+    padding-top: 0.625rem;
+}
+
+#works h3 {
+    color: #53c3c4;
+    font-size: 1.125rem;
+    font-family: 'inconsolata' ,monospace;
+    font-weight: normal;
+    padding-top: 1.25rem;
+}
+#myteam h1 {
+    color: #003170;
+    font-size: 6.25rem;
+    font-family: 'Prata', 'serif';
+    font-weight: normal;
+}
+
+#myteam h2 {
+    color:#306fbf;
+    font-size: 3.125rem;
+    font-family: 'Prata', 'serif';
+    font-weight: normal;
+}
+
+#myteam p {
+    padding-top: 2.5rem;
+    color: #444355;
+    font-size: 0.875rem;
+    font-family: 'inconsolata' ,monospace;
+    font-weight: normal;
+}
+
+#contact h1 {
+    color: #f3747b;
+    font-size: 6.25rem;
+    font-family: 'Prata', 'serif';
+    font-weight: normal;
+}
+
+#contact p {
+    font-family: 'inconsolata' ,monospace;
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+
+.footer {
+    background-image:url("../img/socialmedia.svg");
+}
+
+footer img {
+    margin: 1.563rem;
+    height: 3.125rem;
+}
+
+footer .social-media {
+    width: max-content;
+    margin: auto;
+}
+
+footer p{
+    position: relative;
+    right: 15.625rem;
+    font-size: 0.875rem;
+    color: white;
+    font-family: 'inconsolata' ,monospace;
+    font-weight: normal;
+}
